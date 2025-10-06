@@ -12,47 +12,84 @@ def create_generic(**kwargs):
     parts = []
 
     part_details = {}
-    part_details["classification"] = "personal"
-    part_details["type"] = "helen"
-    part_details["size"] = "school"
-    part_details["color"] = "voting"
-    part_details["description_main"] = "year_3"
+    part_details["classification"] = "storage"
+    part_details["type"] = "gridfinity"
+    part_details["size"] = ""
+    part_details["color"] = ""
+    part_details["description_main"] = "y"
     part_details["description_extra"] = ""
     part_details["manufacturer"] = ""
     part_details["part_number"] = ""
 
     default_empty = part_details.copy()
 
-    people = {}
-    person = {}
-    person["id"] = "person_1"
-    person["name"] = "Rayan"
-    person["slogan"] = "You won't regret it!"
-    person["style"] = "spotty"
-    person["color"] = "pastel"
-    people[person["id"]] = person
+    #baseplate
+    if True:
+        default_current = copy.deepcopy(default_empty)
+        default_current["size"] = "baseplate"
+
+        #basic
+        default_current = default_current.copy()
+        default_current["color"] = "basic"
 
 
+        #perplexinglabs
+        if True:
+            #rebuilt_baseplate
+            local_default = copy.deepcopy(default_current)
+            local_default["link_designer"] = "https://github.com/kennetek/gridfinity-rebuilt-openscad"
+            local_default["link"] = "https://github.com/kennetek/gridfinity-rebuilt-openscad"
+            local_default["link_generator"] = "https://gridfinity.perplexinglabs.com/pr/gridfinity-rebuilt/0/1"
 
+            
+            #baseplate
+            if True:
+                local_default = copy.deepcopy(default_current)
+                local_default["size"] = f"baseplate"        
 
-    for person in people:
-        current = people[person]
-        part = copy.deepcopy(part_details)        
-        part["description_main"] = person
+                styles = ["thin", "skeletonized", "screw_together","weighted","screw_together_minimal"]
+                sizes = []
+                for x in range(1,4):
+                    for y in range(1,4):
+                        sizes.append(f"{x}_width_{y}_length")
+
+                for style in styles:
+                    for size in sizes:
+                        current = copy.deepcopy(local_default)
+                        current["color"] = f"gridfinity_rebuilt_{style}"        
+                        current["description_main"] = size
+                        parts.append(current)
+                #bin
+            if True:
+                local_default = copy.deepcopy(default_current)
+                local_default["size"] = f"bin"        
+
+                styles = ["standard", "cylinder", "solid"]
+                sizes = []
+                for x in range(1,4):
+                    for y in range(1,4):
+                        for z in range(1,6):
+                            sizes.append(f"{x}_width_{y}_length_{z}_unit_{int(z * 7)}_mm_height")
+
+                for style in styles:
+                    for size in sizes:
+                        current = copy.deepcopy(local_default)
+                        current["color"] = f"gridfinity_rebuilt_{style}"        
+                        current["description_main"] = size
+                        parts.append(current)
+
+        extra_details = []
+        extra_detail = {}
         
-        name = current["name"]
-        slogan = current["slogan"]
-        style = current["style"]
-        color = current["color"]
 
-        prompts = []
-        wordlist = ["Vote For", name, slogan]
+        current_item = copy.deepcopy(default_current)
 
-        for words in wordlist:
-            prompt_1 = f'please generate. A bold 3D block text design that says "{words}" in a playful but striking style, sized for a 3 wide by 2 tall landscape postcard. The design should avoid soft shading and instead use sharp angular planes with a limited {color}, making it screen-print friendly. The 3D text should look dynamic and fun, popping forward with strong outlines and a {style} pattern. The background should be plain white with no drop shadows. No gradients, only solid patches of colour. Make the design clean, bold, and eye-catching, with a balance between text and background so the message is clear. Square corners, no border. it must be 3x2 and on a plain white background with no drop shadow'
-            prompts.append(prompt_1)
+        
 
+        
 
+    #ai and corel stuff
+    if False:
         #image
         if True:
             count = 1

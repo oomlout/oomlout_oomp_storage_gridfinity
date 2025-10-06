@@ -1,0 +1,86 @@
+classification: storage
+classification_capital: Storage
+classification_first_letter: s
+classification_first_letter_upper: S
+classification_upper: STORAGE
+color: gridfinity_rebuilt_screw_together
+color_capital: Gridfinity Rebuilt Screw Together
+color_first_letter: g
+color_first_letter_upper: G
+color_upper: GRIDFINITY_REBUILT_SCREW_TOGETHER
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 1_width_3_length
+description_main_capital: 1 Width 3 Length
+description_main_first_letter: '1'
+description_main_first_letter_upper: '1'
+description_main_upper: 1_WIDTH_3_LENGTH
+description_only_numbers: '13'
+description_only_numbers_short: '13'
+description_or_color: G13
+description_or_color_upper: G13
+directory: parts/storage_gridfinity_baseplate_gridfinity_rebuilt_screw_together_1_width_3_length
+distributors: []
+id: storage_gridfinity_baseplate_gridfinity_rebuilt_screw_together_1_width_3_length
+id_no_class: gridfinity_baseplate_gridfinity_rebuilt_screw_together_1_width_3_length
+id_no_size: rebuilt_screw_together_1_width_3_length
+id_no_type: baseplate_rebuilt_screw_together_1_width_3_length
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_baseplate_gridfinity_rebuilt_screw_together_1_width_3_length
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_baseplate_gridfinity_rebuilt_screw_together_1_width_3_length
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_baseplate_gridfinity_rebuilt_screw_together_1_width_3_length
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[storage_gridfinity_baseplate_gridfinity_rebuilt_screw_together_1_width_3_length](none)<br>[](none)<br>[Storage
+  Gridfinity Baseplate Gridfinity Rebuilt Screw Together 1 Width 3 Length](none)<br><br>'
+markdown_short: '[storage_gridfinity_baseplate_gridfinity_rebuilt_screw_together_1_width_3_length](none)<br><br>'
+md5: 2a8ec0b2ce5d11d729e7a445c3413b05
+md5_10: 2a8ec0b2ce
+md5_10_upper: 2A8EC0B2CE
+md5_5: 2a8ec
+md5_5_upper: 2A8EC
+md5_6: 2a8ec0
+md5_6_alpha: 1ns1s
+md5_6_alpha_upper: 1NS1S
+md5_6_upper: 2A8EC0
+name: Storage Gridfinity Baseplate Gridfinity Rebuilt Screw Together 1 Width 3 Length
+name_no_class: Gridfinity Baseplate Gridfinity Rebuilt Screw Together 1 Width 3 Length
+name_no_size: Rebuilt Screw Together 1 Width 3 Length
+name_no_size_short: Rebuilt Screw Together 1 Width 3 Length
+name_no_type: Baseplate Rebuilt Screw Together 1 Width 3 Length
+oomp_key: oomp_storage_gridfinity_baseplate_gridfinity_rebuilt_screw_together_1_width_3_length
+oomp_word: umbrella clipboard bread
+oomp_word_emoji: ':umbrella: :clipboard: :bread:'
+oomp_word_emoji_list:
+- ':umbrella:'
+- ':clipboard:'
+- ':bread:'
+oomp_word_list:
+- umbrella
+- clipboard
+- bread
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ''
+short_code_upper: ''
+size: baseplate
+size_capital: Baseplate
+size_first_letter: b
+size_first_letter_upper: B
+size_only_numbers: ''
+size_only_numbers_no_zeros: ''
+size_upper: BASEPLATE
+type: gridfinity
+type_capital: Gridfinity
+type_first_letter: g
+type_first_letter_upper: G
+type_upper: GRIDFINITY

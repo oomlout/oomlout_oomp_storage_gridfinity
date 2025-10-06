@@ -1,0 +1,88 @@
+classification: storage
+classification_capital: Storage
+classification_first_letter: s
+classification_first_letter_upper: S
+classification_upper: STORAGE
+color: gridfinity_rebuilt_standard
+color_capital: Gridfinity Rebuilt Standard
+color_first_letter: g
+color_first_letter_upper: G
+color_upper: GRIDFINITY_REBUILT_STANDARD
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 2_width_1_length_1_unit_7_mm_height
+description_main_capital: 2 Width 1 Length 1 Unit 7 mm Height
+description_main_first_letter: '2'
+description_main_first_letter_upper: '2'
+description_main_upper: 2_WIDTH_1_LENGTH_1_UNIT_7_MM_HEIGHT
+description_only_numbers: '2117'
+description_only_numbers_short: 2k1
+description_or_color: G2k1
+description_or_color_upper: G2K1
+directory: parts/storage_gridfinity_bin_gridfinity_rebuilt_standard_2_width_1_length_1_unit_7_mm_height
+distributors: []
+id: storage_gridfinity_bin_gridfinity_rebuilt_standard_2_width_1_length_1_unit_7_mm_height
+id_no_class: gridfinity_bin_gridfinity_rebuilt_standard_2_width_1_length_1_unit_7_mm_height
+id_no_size: rebuilt_standard_2_width_1_length_1_unit_7_mm_height
+id_no_type: bin_rebuilt_standard_2_width_1_length_1_unit_7_mm_height
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_gridfinity_rebuilt_standard_2_width_1_length_1_unit_7_mm_height
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_gridfinity_rebuilt_standard_2_width_1_length_1_unit_7_mm_height
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_gridfinity_rebuilt_standard_2_width_1_length_1_unit_7_mm_height
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[storage_gridfinity_bin_gridfinity_rebuilt_standard_2_width_1_length_1_unit_7_mm_height](none)<br>[](none)<br>[Storage
+  Gridfinity Bin Gridfinity Rebuilt Standard 2 Width 1 Length 1 Unit 7 Mm Height](none)<br><br>'
+markdown_short: '[storage_gridfinity_bin_gridfinity_rebuilt_standard_2_width_1_length_1_unit_7_mm_height](none)<br><br>'
+md5: 2bc8281eb7449840b7e280ec9946839e
+md5_10: 2bc8281eb7
+md5_10_upper: 2BC8281EB7
+md5_5: 2bc82
+md5_5_upper: 2BC82
+md5_6: 2bc828
+md5_6_alpha: 1phyg
+md5_6_alpha_upper: 1PHYG
+md5_6_upper: 2BC828
+name: Storage Gridfinity Bin Gridfinity Rebuilt Standard 2 Width 1 Length 1 Unit 7
+  Mm Height
+name_no_class: Gridfinity Bin Gridfinity Rebuilt Standard 2 Width 1 Length 1 Unit
+  7 Mm Height
+name_no_size: Rebuilt Standard 2 Width 1 Length 1 Unit 7 Mm Height
+name_no_size_short: Rebuilt Standard 2 Width 1 Length 1 Unit 7 Mm Height
+name_no_type: Bin Rebuilt Standard 2 Width 1 Length 1 Unit 7 Mm Height
+oomp_key: oomp_storage_gridfinity_bin_gridfinity_rebuilt_standard_2_width_1_length_1_unit_7_mm_height
+oomp_word: cloud apple tongue
+oomp_word_emoji: ':cloud: :apple: :tongue:'
+oomp_word_emoji_list:
+- ':cloud:'
+- ':apple:'
+- ':tongue:'
+oomp_word_list:
+- cloud
+- apple
+- tongue
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ''
+short_code_upper: ''
+size: bin
+size_capital: Bin
+size_first_letter: b
+size_first_letter_upper: B
+size_only_numbers: ''
+size_only_numbers_no_zeros: ''
+size_upper: BIN
+type: gridfinity
+type_capital: Gridfinity
+type_first_letter: g
+type_first_letter_upper: G
+type_upper: GRIDFINITY

@@ -105,13 +105,27 @@ def create_generic(**kwargs):
             style["note"] = "Bins sized 1x1 to 1x4 (incl. finger scoops), 8mm magnet holes, optimized to print without supports/brim/raft."
             styles.append(style)
 
+            style = {}
+            style["name_original"] = "Gridfinity Storage Box by Pred (now parametric)"
+            style["designer"] = "Pred"
+            style["link"] = "https://www.printables.com/model/543553-gridfinity-storage-box-by-pred-now-parametric/files"
+            style["note"] = "Parametric Gridfinity storage box; customizable hinge length/position and label size."
+            styles.append(style)
+
+            style = {}
+            style["name_original"] = "Gridfinity Ultra Light Bins - Plain Edition"
+            style["designer"] = "HuMa"
+            style["link"] = "https://www.printables.com/model/627719-gridfinity-ultra-light-bins-plain-edition"
+            style["note"] = "Ultra-light plain bins; redesigned to cut material and time (~37% filament and ~42% print-time vs original; ~25% filament and ~30% vs lite)."
+            styles.append(style)
 
 
             for style in styles:
                 current = copy.deepcopy(local_default)                
                 current.update(style)
                 current["color"] = f"{style['designer']}_designed_by".lower()
-                current["description_main"] = f'{style["name_original"].replace(" ","_")}_style'.lower()
+                description_main = sanitize(style["name_original"])
+                current["description_main"] = description_main.lower()
                 parts.append(current)
 
         
@@ -213,6 +227,18 @@ def create_generic(**kwargs):
     import time
     time.sleep(2)
 
+def sanitize(text):
+    #lowercase
+    text = text.lower()
+    #replace spaces with underscores
+    text = text.replace(" ", "_")
+    #remove all characters that are not alphanumeric or underscores
+    text = ''.join(c for c in text if c.isalnum() or c == '_')
+
+    #remove __
+    while '__' in text:
+        text = text.replace('__', '_')
+    return text 
 
 if __name__ == "__main__":
     # run the function

@@ -1,0 +1,86 @@
+classification: storage
+classification_capital: Storage
+classification_first_letter: s
+classification_first_letter_upper: S
+classification_upper: STORAGE
+color: basic
+color_capital: Basic
+color_first_letter: b
+color_first_letter_upper: B
+color_upper: BASIC
+description_extra: cylinder
+description_extra_capital: Cylinder
+description_extra_first_letter: c
+description_extra_first_letter_upper: C
+description_extra_upper: CYLINDER
+description_main: 3_width_3_length_1_unit_7_mm_height
+description_main_capital: 3 Width 3 Length 1 Unit 7 mm Height
+description_main_first_letter: '3'
+description_main_first_letter_upper: '3'
+description_main_upper: 3_WIDTH_3_LENGTH_1_UNIT_7_MM_HEIGHT
+description_only_numbers: '3317'
+description_only_numbers_short: 3k3
+description_or_color: B3k3
+description_or_color_upper: B3K3
+directory: parts/storage_gridfinity_bin_basic_3_width_3_length_1_unit_7_mm_height_cylinder
+distributors: []
+id: storage_gridfinity_bin_basic_3_width_3_length_1_unit_7_mm_height_cylinder
+id_no_class: gridfinity_bin_basic_3_width_3_length_1_unit_7_mm_height_cylinder
+id_no_size: basic_3_width_3_length_1_unit_7_mm_height_cylinder
+id_no_type: bin_basic_3_width_3_length_1_unit_7_mm_height_cylinder
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_basic_3_width_3_length_1_unit_7_mm_height_cylinder
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_basic_3_width_3_length_1_unit_7_mm_height_cylinder
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_basic_3_width_3_length_1_unit_7_mm_height_cylinder
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[storage_gridfinity_bin_basic_3_width_3_length_1_unit_7_mm_height_cylinder](none)<br>[](none)<br>[Storage
+  Gridfinity Bin Basic 3 Width 3 Length 1 Unit 7 Mm Height Cylinder](none)<br><br>'
+markdown_short: '[storage_gridfinity_bin_basic_3_width_3_length_1_unit_7_mm_height_cylinder](none)<br><br>'
+md5: ffe1e7a00656bf72dfbb1ece22724e6f
+md5_10: ffe1e7a006
+md5_10_upper: FFE1E7A006
+md5_5: ffe1e
+md5_5_upper: FFE1E
+md5_6: ffe1e7
+md5_6_alpha: 9zffr
+md5_6_alpha_upper: 9ZFFR
+md5_6_upper: FFE1E7
+name: Storage Gridfinity Bin Basic 3 Width 3 Length 1 Unit 7 Mm Height Cylinder
+name_no_class: Gridfinity Bin Basic 3 Width 3 Length 1 Unit 7 Mm Height Cylinder
+name_no_size: Basic 3 Width 3 Length 1 Unit 7 Mm Height Cylinder
+name_no_size_short: Basic 3 Width 3 Length 1 Unit 7 Mm Height Cylinder
+name_no_type: Bin Basic 3 Width 3 Length 1 Unit 7 Mm Height Cylinder
+oomp_key: oomp_storage_gridfinity_bin_basic_3_width_3_length_1_unit_7_mm_height_cylinder
+oomp_word: trident boat helicopter
+oomp_word_emoji: ':trident: :boat: :helicopter:'
+oomp_word_emoji_list:
+- ':trident:'
+- ':boat:'
+- ':helicopter:'
+oomp_word_list:
+- trident
+- boat
+- helicopter
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ''
+short_code_upper: ''
+size: bin
+size_capital: Bin
+size_first_letter: b
+size_first_letter_upper: B
+size_only_numbers: ''
+size_only_numbers_no_zeros: ''
+size_upper: BIN
+type: gridfinity
+type_capital: Gridfinity
+type_first_letter: g
+type_first_letter_upper: G
+type_upper: GRIDFINITY

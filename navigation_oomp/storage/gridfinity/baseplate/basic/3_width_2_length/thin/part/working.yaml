@@ -1,0 +1,86 @@
+classification: storage
+classification_capital: Storage
+classification_first_letter: s
+classification_first_letter_upper: S
+classification_upper: STORAGE
+color: basic
+color_capital: Basic
+color_first_letter: b
+color_first_letter_upper: B
+color_upper: BASIC
+description_extra: thin
+description_extra_capital: Thin
+description_extra_first_letter: t
+description_extra_first_letter_upper: T
+description_extra_upper: THIN
+description_main: 3_width_2_length
+description_main_capital: 3 Width 2 Length
+description_main_first_letter: '3'
+description_main_first_letter_upper: '3'
+description_main_upper: 3_WIDTH_2_LENGTH
+description_only_numbers: '32'
+description_only_numbers_short: '32'
+description_or_color: B32
+description_or_color_upper: B32
+directory: parts/storage_gridfinity_baseplate_basic_3_width_2_length_thin
+distributors: []
+id: storage_gridfinity_baseplate_basic_3_width_2_length_thin
+id_no_class: gridfinity_baseplate_basic_3_width_2_length_thin
+id_no_size: basic_3_width_2_length_thin
+id_no_type: baseplate_basic_3_width_2_length_thin
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_baseplate_basic_3_width_2_length_thin
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_baseplate_basic_3_width_2_length_thin
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_baseplate_basic_3_width_2_length_thin
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[storage_gridfinity_baseplate_basic_3_width_2_length_thin](none)<br>[](none)<br>[Storage
+  Gridfinity Baseplate Basic 3 Width 2 Length Thin](none)<br><br>'
+markdown_short: '[storage_gridfinity_baseplate_basic_3_width_2_length_thin](none)<br><br>'
+md5: a4d50dd2b4da2fdfcb5c21b8d144e64b
+md5_10: a4d50dd2b4
+md5_10_upper: A4D50DD2B4
+md5_5: a4d50
+md5_5_upper: A4D50
+md5_6: a4d50d
+md5_6_alpha: 6fj7x
+md5_6_alpha_upper: 6FJ7X
+md5_6_upper: A4D50D
+name: Storage Gridfinity Baseplate Basic 3 Width 2 Length Thin
+name_no_class: Gridfinity Baseplate Basic 3 Width 2 Length Thin
+name_no_size: Basic 3 Width 2 Length Thin
+name_no_size_short: Basic 3 Width 2 Length Thin
+name_no_type: Baseplate Basic 3 Width 2 Length Thin
+oomp_key: oomp_storage_gridfinity_baseplate_basic_3_width_2_length_thin
+oomp_word: book house heart
+oomp_word_emoji: ':book: :house: :heart:'
+oomp_word_emoji_list:
+- ':book:'
+- ':house:'
+- ':heart:'
+oomp_word_list:
+- book
+- house
+- heart
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ''
+short_code_upper: ''
+size: baseplate
+size_capital: Baseplate
+size_first_letter: b
+size_first_letter_upper: B
+size_only_numbers: ''
+size_only_numbers_no_zeros: ''
+size_upper: BASEPLATE
+type: gridfinity
+type_capital: Gridfinity
+type_first_letter: g
+type_first_letter_upper: G
+type_upper: GRIDFINITY

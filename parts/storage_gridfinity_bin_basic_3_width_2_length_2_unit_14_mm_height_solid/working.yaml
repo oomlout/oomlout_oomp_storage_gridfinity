@@ -1,0 +1,86 @@
+classification: storage
+classification_capital: Storage
+classification_first_letter: s
+classification_first_letter_upper: S
+classification_upper: STORAGE
+color: basic
+color_capital: Basic
+color_first_letter: b
+color_first_letter_upper: B
+color_upper: BASIC
+description_extra: solid
+description_extra_capital: Solid
+description_extra_first_letter: s
+description_extra_first_letter_upper: S
+description_extra_upper: SOLID
+description_main: 3_width_2_length_2_unit_14_mm_height
+description_main_capital: 3 Width 2 Length 2 Unit 14 mm Height
+description_main_first_letter: '3'
+description_main_first_letter_upper: '3'
+description_main_upper: 3_WIDTH_2_LENGTH_2_UNIT_14_MM_HEIGHT
+description_only_numbers: '32214'
+description_only_numbers_short: 32k
+description_or_color: B32k
+description_or_color_upper: B32K
+directory: parts/storage_gridfinity_bin_basic_3_width_2_length_2_unit_14_mm_height_solid
+distributors: []
+id: storage_gridfinity_bin_basic_3_width_2_length_2_unit_14_mm_height_solid
+id_no_class: gridfinity_bin_basic_3_width_2_length_2_unit_14_mm_height_solid
+id_no_size: basic_3_width_2_length_2_unit_14_mm_height_solid
+id_no_type: bin_basic_3_width_2_length_2_unit_14_mm_height_solid
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_basic_3_width_2_length_2_unit_14_mm_height_solid
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_basic_3_width_2_length_2_unit_14_mm_height_solid
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_basic_3_width_2_length_2_unit_14_mm_height_solid
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[storage_gridfinity_bin_basic_3_width_2_length_2_unit_14_mm_height_solid](none)<br>[](none)<br>[Storage
+  Gridfinity Bin Basic 3 Width 2 Length 2 Unit 14 Mm Height Solid](none)<br><br>'
+markdown_short: '[storage_gridfinity_bin_basic_3_width_2_length_2_unit_14_mm_height_solid](none)<br><br>'
+md5: 73bd696e9f15de32dc62c66c6b72c16c
+md5_10: 73bd696e9f
+md5_10_upper: 73BD696E9F
+md5_5: 73bd6
+md5_5_upper: 73BD6
+md5_6: 73bd69
+md5_6_alpha: 4ikq1
+md5_6_alpha_upper: 4IKQ1
+md5_6_upper: 73BD69
+name: Storage Gridfinity Bin Basic 3 Width 2 Length 2 Unit 14 Mm Height Solid
+name_no_class: Gridfinity Bin Basic 3 Width 2 Length 2 Unit 14 Mm Height Solid
+name_no_size: Basic 3 Width 2 Length 2 Unit 14 Mm Height Solid
+name_no_size_short: Basic 3 Width 2 Length 2 Unit 14 Mm Height Solid
+name_no_type: Bin Basic 3 Width 2 Length 2 Unit 14 Mm Height Solid
+oomp_key: oomp_storage_gridfinity_bin_basic_3_width_2_length_2_unit_14_mm_height_solid
+oomp_word: flags rice cactus
+oomp_word_emoji: ':flags: :rice: :cactus:'
+oomp_word_emoji_list:
+- ':flags:'
+- ':rice:'
+- ':cactus:'
+oomp_word_list:
+- flags
+- rice
+- cactus
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ''
+short_code_upper: ''
+size: bin
+size_capital: Bin
+size_first_letter: b
+size_first_letter_upper: B
+size_only_numbers: ''
+size_only_numbers_no_zeros: ''
+size_upper: BIN
+type: gridfinity
+type_capital: Gridfinity
+type_first_letter: g
+type_first_letter_upper: G
+type_upper: GRIDFINITY

@@ -1,0 +1,86 @@
+classification: storage
+classification_capital: Storage
+classification_first_letter: s
+classification_first_letter_upper: S
+classification_upper: STORAGE
+color: basic
+color_capital: Basic
+color_first_letter: b
+color_first_letter_upper: B
+color_upper: BASIC
+description_extra: weighted
+description_extra_capital: Weighted
+description_extra_first_letter: w
+description_extra_first_letter_upper: W
+description_extra_upper: WEIGHTED
+description_main: 3_width_3_length
+description_main_capital: 3 Width 3 Length
+description_main_first_letter: '3'
+description_main_first_letter_upper: '3'
+description_main_upper: 3_WIDTH_3_LENGTH
+description_only_numbers: '33'
+description_only_numbers_short: '33'
+description_or_color: B33
+description_or_color_upper: B33
+directory: parts/storage_gridfinity_baseplate_basic_3_width_3_length_weighted
+distributors: []
+id: storage_gridfinity_baseplate_basic_3_width_3_length_weighted
+id_no_class: gridfinity_baseplate_basic_3_width_3_length_weighted
+id_no_size: basic_3_width_3_length_weighted
+id_no_type: baseplate_basic_3_width_3_length_weighted
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_baseplate_basic_3_width_3_length_weighted
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_baseplate_basic_3_width_3_length_weighted
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_baseplate_basic_3_width_3_length_weighted
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[storage_gridfinity_baseplate_basic_3_width_3_length_weighted](none)<br>[](none)<br>[Storage
+  Gridfinity Baseplate Basic 3 Width 3 Length Weighted](none)<br><br>'
+markdown_short: '[storage_gridfinity_baseplate_basic_3_width_3_length_weighted](none)<br><br>'
+md5: 594b39aa4bf46e0599d5cd301ed16a23
+md5_10: 594b39aa4b
+md5_10_upper: 594B39AA4B
+md5_5: 594b3
+md5_5_upper: 594B3
+md5_6: 594b39
+md5_6_alpha: 3hfeh
+md5_6_alpha_upper: 3HFEH
+md5_6_upper: 594B39
+name: Storage Gridfinity Baseplate Basic 3 Width 3 Length Weighted
+name_no_class: Gridfinity Baseplate Basic 3 Width 3 Length Weighted
+name_no_size: Basic 3 Width 3 Length Weighted
+name_no_size_short: Basic 3 Width 3 Length Weighted
+name_no_type: Baseplate Basic 3 Width 3 Length Weighted
+oomp_key: oomp_storage_gridfinity_baseplate_basic_3_width_3_length_weighted
+oomp_word: dragon penguin tiger
+oomp_word_emoji: ':dragon: :penguin: :tiger:'
+oomp_word_emoji_list:
+- ':dragon:'
+- ':penguin:'
+- ':tiger:'
+oomp_word_list:
+- dragon
+- penguin
+- tiger
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ''
+short_code_upper: ''
+size: baseplate
+size_capital: Baseplate
+size_first_letter: b
+size_first_letter_upper: B
+size_only_numbers: ''
+size_only_numbers_no_zeros: ''
+size_upper: BASEPLATE
+type: gridfinity
+type_capital: Gridfinity
+type_first_letter: g
+type_first_letter_upper: G
+type_upper: GRIDFINITY

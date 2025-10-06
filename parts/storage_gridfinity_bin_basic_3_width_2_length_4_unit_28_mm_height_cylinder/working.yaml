@@ -1,0 +1,86 @@
+classification: storage
+classification_capital: Storage
+classification_first_letter: s
+classification_first_letter_upper: S
+classification_upper: STORAGE
+color: basic
+color_capital: Basic
+color_first_letter: b
+color_first_letter_upper: B
+color_upper: BASIC
+description_extra: cylinder
+description_extra_capital: Cylinder
+description_extra_first_letter: c
+description_extra_first_letter_upper: C
+description_extra_upper: CYLINDER
+description_main: 3_width_2_length_4_unit_28_mm_height
+description_main_capital: 3 Width 2 Length 4 Unit 28 mm Height
+description_main_first_letter: '3'
+description_main_first_letter_upper: '3'
+description_main_upper: 3_WIDTH_2_LENGTH_4_UNIT_28_MM_HEIGHT
+description_only_numbers: '32428'
+description_only_numbers_short: 32k
+description_or_color: B32k
+description_or_color_upper: B32K
+directory: parts/storage_gridfinity_bin_basic_3_width_2_length_4_unit_28_mm_height_cylinder
+distributors: []
+id: storage_gridfinity_bin_basic_3_width_2_length_4_unit_28_mm_height_cylinder
+id_no_class: gridfinity_bin_basic_3_width_2_length_4_unit_28_mm_height_cylinder
+id_no_size: basic_3_width_2_length_4_unit_28_mm_height_cylinder
+id_no_type: bin_basic_3_width_2_length_4_unit_28_mm_height_cylinder
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_basic_3_width_2_length_4_unit_28_mm_height_cylinder
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_basic_3_width_2_length_4_unit_28_mm_height_cylinder
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_basic_3_width_2_length_4_unit_28_mm_height_cylinder
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[storage_gridfinity_bin_basic_3_width_2_length_4_unit_28_mm_height_cylinder](none)<br>[](none)<br>[Storage
+  Gridfinity Bin Basic 3 Width 2 Length 4 Unit 28 Mm Height Cylinder](none)<br><br>'
+markdown_short: '[storage_gridfinity_bin_basic_3_width_2_length_4_unit_28_mm_height_cylinder](none)<br><br>'
+md5: d5839a4b9a4e110c9fe82577457d5d81
+md5_10: d5839a4b9a
+md5_10_upper: D5839A4B9A
+md5_5: d5839
+md5_5_upper: D5839
+md5_6: d5839a
+md5_6_alpha: 8bwyi
+md5_6_alpha_upper: 8BWYI
+md5_6_upper: D5839A
+name: Storage Gridfinity Bin Basic 3 Width 2 Length 4 Unit 28 Mm Height Cylinder
+name_no_class: Gridfinity Bin Basic 3 Width 2 Length 4 Unit 28 Mm Height Cylinder
+name_no_size: Basic 3 Width 2 Length 4 Unit 28 Mm Height Cylinder
+name_no_size_short: Basic 3 Width 2 Length 4 Unit 28 Mm Height Cylinder
+name_no_type: Bin Basic 3 Width 2 Length 4 Unit 28 Mm Height Cylinder
+oomp_key: oomp_storage_gridfinity_bin_basic_3_width_2_length_4_unit_28_mm_height_cylinder
+oomp_word: house lock golf
+oomp_word_emoji: ':house: :lock: :golf:'
+oomp_word_emoji_list:
+- ':house:'
+- ':lock:'
+- ':golf:'
+oomp_word_list:
+- house
+- lock
+- golf
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ''
+short_code_upper: ''
+size: bin
+size_capital: Bin
+size_first_letter: b
+size_first_letter_upper: B
+size_only_numbers: ''
+size_only_numbers_no_zeros: ''
+size_upper: BIN
+type: gridfinity
+type_capital: Gridfinity
+type_first_letter: g
+type_first_letter_upper: G
+type_upper: GRIDFINITY

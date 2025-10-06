@@ -16,7 +16,7 @@ def create_generic(**kwargs):
     part_details["type"] = "gridfinity"
     part_details["size"] = ""
     part_details["color"] = ""
-    part_details["description_main"] = "y"
+    part_details["description_main"] = ""
     part_details["description_extra"] = ""
     part_details["manufacturer"] = ""
     part_details["part_number"] = ""
@@ -33,14 +33,14 @@ def create_generic(**kwargs):
         default_current["color"] = "basic"
 
 
-        #perplexinglabs
+        #gridfinity_rebuilt
         if True:
             #rebuilt_baseplate
             local_default = copy.deepcopy(default_current)
             local_default["link_designer"] = "https://github.com/kennetek/gridfinity-rebuilt-openscad"
             local_default["link"] = "https://github.com/kennetek/gridfinity-rebuilt-openscad"
             local_default["link_generator"] = "https://gridfinity.perplexinglabs.com/pr/gridfinity-rebuilt/0/1"
-
+            local_default["color"] = f"gridfinity_rebuilt"        
             
             #baseplate
             if True:
@@ -56,8 +56,9 @@ def create_generic(**kwargs):
                 for style in styles:
                     for size in sizes:
                         current = copy.deepcopy(local_default)
-                        current["color"] = f"gridfinity_rebuilt_{style}"        
+                        
                         current["description_main"] = size
+                        current["description_extra"] = style
                         parts.append(current)
                 #bin
             if True:
@@ -73,16 +74,47 @@ def create_generic(**kwargs):
 
                 for style in styles:
                     for size in sizes:
-                        current = copy.deepcopy(local_default)
-                        current["color"] = f"gridfinity_rebuilt_{style}"        
+                        current = copy.deepcopy(local_default)                        
                         current["description_main"] = size
+                        current["description_extra"] = style
                         parts.append(current)
 
-        extra_details = []
-        extra_detail = {}
-        
+        # trials
+        if True:        
+            local_default = copy.deepcopy(default_current)            
+            local_default["size"] = f"test_style"
 
-        current_item = copy.deepcopy(default_current)
+
+            """
+            hiya chadikins I need a websearch and some info sorting into python format this website produced this # https://makerworld.com/en/models/888137-gridfinity-metric-screw-bins?from=search#profileId-843902 style = {} style["name_original"] = "gridfinity metric screw bins" style["designer"] = "morellid97" style["link"] = "https://makerworld.com/en/models/888137-gridfinity-metric-screw-bins?from=search#profileId-843902" style["note"] = "label added for metric screw sizes" styles.append(style) can I get it for
+            """
+
+            # https://makerworld.com/en/models/888137-gridfinity-metric-screw-bins?from=search#profileId-843902
+            styles = []
+            style = {}
+            style["name_original"] = "gridfinity metric screw bins"
+            style["designer"] = "morellid97"
+            style["link"] = "https://makerworld.com/en/models/888137-gridfinity-metric-screw-bins?from=search#profileId-843902"
+            style["note"] = "label added for metric screw sizes"
+            styles.append(style)
+
+            style = {}
+            style["name_original"] = "Gridfinity Bins"
+            style["designer"] = "Malux"
+            style["link"] = "https://makerworld.com/en/models/1181046-gridfinity-bins"
+            style["note"] = "Bins sized 1x1 to 1x4 (incl. finger scoops), 8mm magnet holes, optimized to print without supports/brim/raft."
+            styles.append(style)
+
+
+
+            for style in styles:
+                current = copy.deepcopy(local_default)                
+                current.update(style)
+                current["color"] = f"{style['designer']}_designed_by".lower()
+                current["description_main"] = f'{style["name_original"].replace(" ","_")}_style'.lower()
+                parts.append(current)
+
+        
 
         
 

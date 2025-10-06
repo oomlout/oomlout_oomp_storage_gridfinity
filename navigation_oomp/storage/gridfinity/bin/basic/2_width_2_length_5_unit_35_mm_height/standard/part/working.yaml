@@ -1,0 +1,86 @@
+classification: storage
+classification_capital: Storage
+classification_first_letter: s
+classification_first_letter_upper: S
+classification_upper: STORAGE
+color: basic
+color_capital: Basic
+color_first_letter: b
+color_first_letter_upper: B
+color_upper: BASIC
+description_extra: standard
+description_extra_capital: Standard
+description_extra_first_letter: s
+description_extra_first_letter_upper: S
+description_extra_upper: STANDARD
+description_main: 2_width_2_length_5_unit_35_mm_height
+description_main_capital: 2 Width 2 Length 5 Unit 35 mm Height
+description_main_first_letter: '2'
+description_main_first_letter_upper: '2'
+description_main_upper: 2_WIDTH_2_LENGTH_5_UNIT_35_MM_HEIGHT
+description_only_numbers: '22535'
+description_only_numbers_short: 23k
+description_or_color: B23k
+description_or_color_upper: B23K
+directory: parts/storage_gridfinity_bin_basic_2_width_2_length_5_unit_35_mm_height_standard
+distributors: []
+id: storage_gridfinity_bin_basic_2_width_2_length_5_unit_35_mm_height_standard
+id_no_class: gridfinity_bin_basic_2_width_2_length_5_unit_35_mm_height_standard
+id_no_size: basic_2_width_2_length_5_unit_35_mm_height_standard
+id_no_type: bin_basic_2_width_2_length_5_unit_35_mm_height_standard
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_basic_2_width_2_length_5_unit_35_mm_height_standard
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_basic_2_width_2_length_5_unit_35_mm_height_standard
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_basic_2_width_2_length_5_unit_35_mm_height_standard
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[storage_gridfinity_bin_basic_2_width_2_length_5_unit_35_mm_height_standard](none)<br>[](none)<br>[Storage
+  Gridfinity Bin Basic 2 Width 2 Length 5 Unit 35 Mm Height Standard](none)<br><br>'
+markdown_short: '[storage_gridfinity_bin_basic_2_width_2_length_5_unit_35_mm_height_standard](none)<br><br>'
+md5: 183a8a0e625c80f4f5268dd34349afe0
+md5_10: 183a8a0e62
+md5_10_upper: 183A8A0E62
+md5_5: 183a8
+md5_5_upper: 183A8
+md5_6: 183a8a
+md5_6_alpha: y16y
+md5_6_alpha_upper: Y16Y
+md5_6_upper: 183A8A
+name: Storage Gridfinity Bin Basic 2 Width 2 Length 5 Unit 35 Mm Height Standard
+name_no_class: Gridfinity Bin Basic 2 Width 2 Length 5 Unit 35 Mm Height Standard
+name_no_size: Basic 2 Width 2 Length 5 Unit 35 Mm Height Standard
+name_no_size_short: Basic 2 Width 2 Length 5 Unit 35 Mm Height Standard
+name_no_type: Bin Basic 2 Width 2 Length 5 Unit 35 Mm Height Standard
+oomp_key: oomp_storage_gridfinity_bin_basic_2_width_2_length_5_unit_35_mm_height_standard
+oomp_word: hand koala envelope
+oomp_word_emoji: ':hand: :koala: :envelope:'
+oomp_word_emoji_list:
+- ':hand:'
+- ':koala:'
+- ':envelope:'
+oomp_word_list:
+- hand
+- koala
+- envelope
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ''
+short_code_upper: ''
+size: bin
+size_capital: Bin
+size_first_letter: b
+size_first_letter_upper: B
+size_only_numbers: ''
+size_only_numbers_no_zeros: ''
+size_upper: BIN
+type: gridfinity
+type_capital: Gridfinity
+type_first_letter: g
+type_first_letter_upper: G
+type_upper: GRIDFINITY

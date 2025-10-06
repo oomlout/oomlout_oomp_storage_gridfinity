@@ -1,0 +1,86 @@
+classification: storage
+classification_capital: Storage
+classification_first_letter: s
+classification_first_letter_upper: S
+classification_upper: STORAGE
+color: basic
+color_capital: Basic
+color_first_letter: b
+color_first_letter_upper: B
+color_upper: BASIC
+description_extra: skeletonized
+description_extra_capital: Skeletonized
+description_extra_first_letter: s
+description_extra_first_letter_upper: S
+description_extra_upper: SKELETONIZED
+description_main: 3_width_3_length
+description_main_capital: 3 Width 3 Length
+description_main_first_letter: '3'
+description_main_first_letter_upper: '3'
+description_main_upper: 3_WIDTH_3_LENGTH
+description_only_numbers: '33'
+description_only_numbers_short: '33'
+description_or_color: B33
+description_or_color_upper: B33
+directory: parts/storage_gridfinity_baseplate_basic_3_width_3_length_skeletonized
+distributors: []
+id: storage_gridfinity_baseplate_basic_3_width_3_length_skeletonized
+id_no_class: gridfinity_baseplate_basic_3_width_3_length_skeletonized
+id_no_size: basic_3_width_3_length_skeletonized
+id_no_type: baseplate_basic_3_width_3_length_skeletonized
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_baseplate_basic_3_width_3_length_skeletonized
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_baseplate_basic_3_width_3_length_skeletonized
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_baseplate_basic_3_width_3_length_skeletonized
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[storage_gridfinity_baseplate_basic_3_width_3_length_skeletonized](none)<br>[](none)<br>[Storage
+  Gridfinity Baseplate Basic 3 Width 3 Length Skeletonized](none)<br><br>'
+markdown_short: '[storage_gridfinity_baseplate_basic_3_width_3_length_skeletonized](none)<br><br>'
+md5: b8e94b7d9b02b912633aff0e64e9b8c6
+md5_10: b8e94b7d9b
+md5_10_upper: B8E94B7D9B
+md5_5: b8e94
+md5_5_upper: B8E94
+md5_6: b8e94b
+md5_6_alpha: 77qkr
+md5_6_alpha_upper: 77QKR
+md5_6_upper: B8E94B
+name: Storage Gridfinity Baseplate Basic 3 Width 3 Length Skeletonized
+name_no_class: Gridfinity Baseplate Basic 3 Width 3 Length Skeletonized
+name_no_size: Basic 3 Width 3 Length Skeletonized
+name_no_size_short: Basic 3 Width 3 Length Skeletonized
+name_no_type: Baseplate Basic 3 Width 3 Length Skeletonized
+oomp_key: oomp_storage_gridfinity_baseplate_basic_3_width_3_length_skeletonized
+oomp_word: hamburger bike penguin
+oomp_word_emoji: ':hamburger: :bike: :penguin:'
+oomp_word_emoji_list:
+- ':hamburger:'
+- ':bike:'
+- ':penguin:'
+oomp_word_list:
+- hamburger
+- bike
+- penguin
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ''
+short_code_upper: ''
+size: baseplate
+size_capital: Baseplate
+size_first_letter: b
+size_first_letter_upper: B
+size_only_numbers: ''
+size_only_numbers_no_zeros: ''
+size_upper: BASEPLATE
+type: gridfinity
+type_capital: Gridfinity
+type_first_letter: g
+type_first_letter_upper: G
+type_upper: GRIDFINITY

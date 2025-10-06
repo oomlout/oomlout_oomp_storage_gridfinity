@@ -1,0 +1,86 @@
+classification: storage
+classification_capital: Storage
+classification_first_letter: s
+classification_first_letter_upper: S
+classification_upper: STORAGE
+color: basic
+color_capital: Basic
+color_first_letter: b
+color_first_letter_upper: B
+color_upper: BASIC
+description_extra: cylinder
+description_extra_capital: Cylinder
+description_extra_first_letter: c
+description_extra_first_letter_upper: C
+description_extra_upper: CYLINDER
+description_main: 3_width_3_length_3_unit_21_mm_height
+description_main_capital: 3 Width 3 Length 3 Unit 21 mm Height
+description_main_first_letter: '3'
+description_main_first_letter_upper: '3'
+description_main_upper: 3_WIDTH_3_LENGTH_3_UNIT_21_MM_HEIGHT
+description_only_numbers: '33321'
+description_only_numbers_short: 33k
+description_or_color: B33k
+description_or_color_upper: B33K
+directory: parts/storage_gridfinity_bin_basic_3_width_3_length_3_unit_21_mm_height_cylinder
+distributors: []
+id: storage_gridfinity_bin_basic_3_width_3_length_3_unit_21_mm_height_cylinder
+id_no_class: gridfinity_bin_basic_3_width_3_length_3_unit_21_mm_height_cylinder
+id_no_size: basic_3_width_3_length_3_unit_21_mm_height_cylinder
+id_no_type: bin_basic_3_width_3_length_3_unit_21_mm_height_cylinder
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_basic_3_width_3_length_3_unit_21_mm_height_cylinder
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_basic_3_width_3_length_3_unit_21_mm_height_cylinder
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_bin_basic_3_width_3_length_3_unit_21_mm_height_cylinder
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[storage_gridfinity_bin_basic_3_width_3_length_3_unit_21_mm_height_cylinder](none)<br>[](none)<br>[Storage
+  Gridfinity Bin Basic 3 Width 3 Length 3 Unit 21 Mm Height Cylinder](none)<br><br>'
+markdown_short: '[storage_gridfinity_bin_basic_3_width_3_length_3_unit_21_mm_height_cylinder](none)<br><br>'
+md5: 2fb5c39bd014e74092d3df5be1473abe
+md5_10: 2fb5c39bd0
+md5_10_upper: 2FB5C39BD0
+md5_5: 2fb5c
+md5_5_upper: 2FB5C
+md5_6: 2fb5c3
+md5_6_alpha: 1v0lf
+md5_6_alpha_upper: 1V0LF
+md5_6_upper: 2FB5C3
+name: Storage Gridfinity Bin Basic 3 Width 3 Length 3 Unit 21 Mm Height Cylinder
+name_no_class: Gridfinity Bin Basic 3 Width 3 Length 3 Unit 21 Mm Height Cylinder
+name_no_size: Basic 3 Width 3 Length 3 Unit 21 Mm Height Cylinder
+name_no_size_short: Basic 3 Width 3 Length 3 Unit 21 Mm Height Cylinder
+name_no_type: Bin Basic 3 Width 3 Length 3 Unit 21 Mm Height Cylinder
+oomp_key: oomp_storage_gridfinity_bin_basic_3_width_3_length_3_unit_21_mm_height_cylinder
+oomp_word: cyclone tea cake
+oomp_word_emoji: ':cyclone: :tea: :cake:'
+oomp_word_emoji_list:
+- ':cyclone:'
+- ':tea:'
+- ':cake:'
+oomp_word_list:
+- cyclone
+- tea
+- cake
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ''
+short_code_upper: ''
+size: bin
+size_capital: Bin
+size_first_letter: b
+size_first_letter_upper: B
+size_only_numbers: ''
+size_only_numbers_no_zeros: ''
+size_upper: BIN
+type: gridfinity
+type_capital: Gridfinity
+type_first_letter: g
+type_first_letter_upper: G
+type_upper: GRIDFINITY

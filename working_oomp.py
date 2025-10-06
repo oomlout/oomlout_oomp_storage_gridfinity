@@ -86,7 +86,8 @@ def create_generic(**kwargs):
 
 
             """
-            hiya chadikins I need a websearch and some info sorting into python format this website produced this # https://makerworld.com/en/models/888137-gridfinity-metric-screw-bins?from=search#profileId-843902 style = {} style["name_original"] = "gridfinity metric screw bins" style["designer"] = "morellid97" style["link"] = "https://makerworld.com/en/models/888137-gridfinity-metric-screw-bins?from=search#profileId-843902" style["note"] = "label added for metric screw sizes" styles.append(style) can I get it for
+            hiya chadikins I need a websearch and some info sorting into python format this website produced this # https://makerworld.com/en/models/888137-gridfinity-metric-screw-bins?from=search#profileId-843902 style = {} style["name_original"] = "gridfinity metric screw bins" style["designer"] = "morellid97" style["style"] = "label" style["link"] = "https://makerworld.com/en/models/888137-gridfinity-metric-screw-bins?from=search#profileId-843902" style["note"] = "label added for metric screw sizes" styles.append(style) can I get it for
+            https://chatgpt.com/c/68e3e4f9-d1f4-832c-a522-6945cad8d096
             """
 
             # https://makerworld.com/en/models/888137-gridfinity-metric-screw-bins?from=search#profileId-843902
@@ -94,6 +95,7 @@ def create_generic(**kwargs):
             style = {}
             style["name_original"] = "gridfinity metric screw bins"
             style["designer"] = "morellid97"
+            style["style"] = "bin"
             style["link"] = "https://makerworld.com/en/models/888137-gridfinity-metric-screw-bins?from=search#profileId-843902"
             style["note"] = "label added for metric screw sizes"
             styles.append(style)
@@ -101,6 +103,7 @@ def create_generic(**kwargs):
             style = {}
             style["name_original"] = "Gridfinity Bins"
             style["designer"] = "Malux"
+            style["style"] = "bin"
             style["link"] = "https://makerworld.com/en/models/1181046-gridfinity-bins"
             style["note"] = "Bins sized 1x1 to 1x4 (incl. finger scoops), 8mm magnet holes, optimized to print without supports/brim/raft."
             styles.append(style)
@@ -108,6 +111,7 @@ def create_generic(**kwargs):
             style = {}
             style["name_original"] = "Gridfinity Storage Box by Pred (now parametric)"
             style["designer"] = "Pred"
+            style["style"] = "box"
             style["link"] = "https://www.printables.com/model/543553-gridfinity-storage-box-by-pred-now-parametric/files"
             style["note"] = "Parametric Gridfinity storage box; customizable hinge length/position and label size."
             styles.append(style)
@@ -115,17 +119,57 @@ def create_generic(**kwargs):
             style = {}
             style["name_original"] = "Gridfinity Ultra Light Bins - Plain Edition"
             style["designer"] = "HuMa"
+            style["style"] = "bin"
             style["link"] = "https://www.printables.com/model/627719-gridfinity-ultra-light-bins-plain-edition"
             style["note"] = "Ultra-light plain bins; redesigned to cut material and time (~37% filament and ~42% print-time vs original; ~25% filament and ~30% vs lite)."
             styles.append(style)
+
+            #snap in label
+            style = {}
+            style["name_original"] = "Gridfinity Snap-In Label"
+            style["designer"] = "pixelwave"
+            style["style"] = "label"
+            style["link"] = "https://makerworld.com/en/models/85595-gridfinity-snap-in-label#profileId-734170"
+            style["note"] = "snap-in labels for 1x bins; 12 mm; for original Gridfinity bins"
+            styles.append(style)
+
+
+            style = {}
+            style["name_original"] = "Gridfinity Snap-In Label - Easy MMU Print"
+            style["designer"] = "SebB"
+            style["style"] = "label"
+            style["link"] = "https://www.printables.com/model/955509-gridfinity-snap-in-label-easy-mmu-print"
+            style["note"] = "MMU-friendly snap-in text label for Gridfinity bins"
+            styles.append(style)
+
+            # Append MakerWorld model info to your styles list
+            style = {}
+            style["name_original"] = "Half width Gridfinity bins"
+            style["designer"] = "Cookiedeluxe"
+            style["style"] = "bin_half"
+            style["link"] = "https://makerworld.com/en/models/386944-half-width-gridfinity-bins?from=search#profileId-287424"
+            style["note"] = "Half-width bins; widths 0.5–3.5U; lengths 1–5U; heights 3, 5, 7, 10U; stackable."
+            styles.append(style)
+
+            style = {}
+            style["name_original"] = "Half Unit Bases, Gridfinity"
+            style["designer"] = "AntCop"
+            style["style"] = "base_hlaf"
+            style["link"] = "https://makerworld.com/en/models/1307588-half-unit-bases-gridfinity?from=search#profileId-1341253"
+            style["note"] = "Gridfinity bases that have half units; contains 1.5-unit bases (half step) only" 
+            styles.append(style)
+
 
 
             for style in styles:
                 current = copy.deepcopy(local_default)                
                 current.update(style)
-                current["color"] = f"{style['designer']}_designed_by".lower()
-                description_main = sanitize(style["name_original"])
-                current["description_main"] = description_main.lower()
+                color = sanitize(style["style"])
+                current["color"] = color.lower()
+                current["description_main"] = f"{style['designer']}_designed_by".lower()
+                
+                description_extra = sanitize(style["name_original"])
+                current["description_extra"] = description_extra.lower()
                 parts.append(current)
 
         

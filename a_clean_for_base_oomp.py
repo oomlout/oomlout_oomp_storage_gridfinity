@@ -50,9 +50,9 @@ def main(**kwargs):
     folders_to_delete.append('three_d_printing')
     
     #folders_to_delete.append('navigation_oobb')
-    #folders_to_delete.append('navigation_oomp')
+    folders_to_delete.append('navigation_oomp')
     #folders_to_delete.append('data')
-    #folders_to_delete.append('parts')
+    folders_to_delete.append('parts')
 
 
     #remove all files then remove directory recursively use a system call

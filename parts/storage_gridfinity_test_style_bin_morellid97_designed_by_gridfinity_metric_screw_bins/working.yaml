@@ -1,0 +1,93 @@
+classification: storage
+classification_capital: Storage
+classification_first_letter: s
+classification_first_letter_upper: S
+classification_upper: STORAGE
+color: bin
+color_capital: Bin
+color_first_letter: b
+color_first_letter_upper: B
+color_upper: BIN
+description_extra: gridfinity_metric_screw_bins
+description_extra_capital: Gridfinity Metric Screw Bins
+description_extra_first_letter: g
+description_extra_first_letter_upper: G
+description_extra_upper: GRIDFINITY_METRIC_SCREW_BINS
+description_main: morellid97_designed_by
+description_main_capital: Morellid97 Designed By
+description_main_first_letter: m
+description_main_first_letter_upper: M
+description_main_upper: MORELLID97_DESIGNED_BY
+description_only_numbers: '97'
+description_only_numbers_short: '97'
+description_or_color: B97
+description_or_color_upper: B97
+designer: morellid97
+directory: parts/storage_gridfinity_test_style_bin_morellid97_designed_by_gridfinity_metric_screw_bins
+distributors: []
+id: storage_gridfinity_test_style_bin_morellid97_designed_by_gridfinity_metric_screw_bins
+id_no_class: gridfinity_test_style_bin_morellid97_designed_by_gridfinity_metric_screw_bins
+id_no_size: bin_morellid97_designed_by_metric_screw_bins
+id_no_type: test_style_bin_morellid97_designed_by_metric_screw_bins
+link: https://makerworld.com/en/models/888137-gridfinity-metric-screw-bins?from=search#profileId-843902
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_test_style_bin_morellid97_designed_by_gridfinity_metric_screw_bins
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_test_style_bin_morellid97_designed_by_gridfinity_metric_screw_bins
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/storage_gridfinity_test_style_bin_morellid97_designed_by_gridfinity_metric_screw_bins
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[storage_gridfinity_test_style_bin_morellid97_designed_by_gridfinity_metric_screw_bins](none)<br>[](none)<br>[Storage
+  Gridfinity Test Style Bin Morellid97 Designed By Gridfinity Metric Screw Bins](none)<br><br>'
+markdown_short: '[storage_gridfinity_test_style_bin_morellid97_designed_by_gridfinity_metric_screw_bins](none)<br><br>'
+md5: 7fe5b7a536d30aa35fa08fdb5e0810bd
+md5_10: 7fe5b7a536
+md5_10_upper: 7FE5B7A536
+md5_5: 7fe5b
+md5_5_upper: 7FE5B
+md5_6: 7fe5b7
+md5_6_alpha: 4znhz
+md5_6_alpha_upper: 4ZNHZ
+md5_6_upper: 7FE5B7
+name: Storage Gridfinity Test Style Bin Morellid97 Designed By Gridfinity Metric Screw
+  Bins
+name_no_class: Gridfinity Test Style Bin Morellid97 Designed By Gridfinity Metric
+  Screw Bins
+name_no_size: Bin Morellid97 Designed By Metric Screw Bins
+name_no_size_short: Bin Morellid97 Designed By Metric Screw Bins
+name_no_type: Test Style Bin Morellid97 Designed By Metric Screw Bins
+name_original: gridfinity metric screw bins
+note: label added for metric screw sizes
+oomp_key: oomp_storage_gridfinity_test_style_bin_morellid97_designed_by_gridfinity_metric_screw_bins
+oomp_word: speaker rocket pizza
+oomp_word_emoji: ':speaker: :rocket: :pizza:'
+oomp_word_emoji_list:
+- ':speaker:'
+- ':rocket:'
+- ':pizza:'
+oomp_word_list:
+- speaker
+- rocket
+- pizza
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ''
+short_code_upper: ''
+size: test_style
+size_capital: Test Style
+size_first_letter: t
+size_first_letter_upper: T
+size_only_numbers: ''
+size_only_numbers_no_zeros: ''
+size_upper: TEST_STYLE
+style: bin
+type: gridfinity
+type_capital: Gridfinity
+type_first_letter: g
+type_first_letter_upper: G
+type_upper: GRIDFINITY

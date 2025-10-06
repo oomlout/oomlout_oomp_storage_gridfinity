@@ -30,6 +30,12 @@ def main(**kwargs):
     run.main(**kwargs)
 
 
+    #git commit and upload using sys
+    os.system("git add .")
+    os.system('git commit -m "Build OOMP parts using oomlout_oomp_builder"')
+    os.system("git push")
+
+
 
 
 

@@ -18,12 +18,12 @@ $fs = 0.25; // .01
 // number of bases along x-axis
 gridx = 1;
 // number of bases along y-axis
-gridy = 1;
+gridy = 3;
 // bin height. See bin height information and "gridz_define" below.
 gridz = 2.0646; //.1
 
 // Half grid sized bins.  Implies "only corners".
-half_grid = false;
+half_grid = true;
 
 /* [Height] */
 // How "gridz" is used to calculate height.  Some exclude 7mm/1U base, others exclude ~3.5mm (4.4mm nominal) stacking lip.
@@ -119,27 +119,126 @@ difference() {
                 }
             }
         }
+                union(){
+                inset = 0;
+                spread_cylinder_y = (63/2)-3.9;
+                spread_cylinder_x = (21/2)-3.9;
+                //bottom piece perfect but going to leave it  
+                    if (true){       
+                    
+                    translate([0,0,-0]){
+                        radius_cylinder_bottom = .75;
+                        radius_cylinder_top = 1.5;
+                        height_cylinder = .75;
+                        
+                        hull(){
+                            translate([spread_cylinder_x, spread_cylinder_y, 0]){
+                                cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
+                            }
+                            translate([-spread_cylinder_x, spread_cylinder_y, 0]){
+                                cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
+                            }
+                            translate([-spread_cylinder_x, -spread_cylinder_y, 0]){
+                                cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
+                            }
+                            translate([spread_cylinder_x, -spread_cylinder_y, 0]){
+                                cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
+                            }
+                        }
+                    }
+                    }
+                //first flat lift piece
+                translate([0,0,0.75]){
+                    radius_cylinder_bottom = 1.5 - inset/2;
+                    radius_cylinder_top = 1.5 - inset/2;
+                    height_cylinder = 2;
+
+                    translate([0,0,0]){
+                        hull(){
+                            translate([spread_cylinder_x, spread_cylinder_y, 0]){
+                                cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
+                            }
+                            translate([-spread_cylinder_x, spread_cylinder_y, 0]){
+                                cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
+                            }
+                            translate([-spread_cylinder_x, -spread_cylinder_y, 0]){
+                                cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
+                            }
+                            translate([spread_cylinder_x, -spread_cylinder_y, 0]){
+                                cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
+                            }
+                        }
+                    }
+                }        
+                //second angled piece
+                #translate([0,0,0.75+2]){
+                    radius_cylinder_bottom = 1.5 - inset/2;
+                    radius_cylinder_top = 3.5 - inset/2;
+                    height_cylinder = 2;
+                    translate([0,0,0]){
+                        hull(){
+                            translate([spread_cylinder_x, spread_cylinder_y, 0]){
+                                cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
+                            }
+                            translate([-spread_cylinder_x, spread_cylinder_y, 0]){
+                                cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
+                            }
+                            translate([-spread_cylinder_x, -spread_cylinder_y, 0]){
+                                cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
+                            }
+                            translate([spread_cylinder_x, -spread_cylinder_y, 0]){
+                                cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
+                            }
+                        }
+                    }
+                }        
+                //final straiht piece
+                translate([0,0,0.75+2+3]){
+                    radius_cylinder_bottom = 3 - inset/2;
+                    radius_cylinder_top = 3 - inset/2;
+                    height_cylinder = 3;
+                    translate([0,0,0]){
+                        hull(){
+                            translate([spread_cylinder_x, spread_cylinder_y, 0]){
+                                cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
+                            }
+                            translate([-spread_cylinder_x, spread_cylinder_y, 0]){
+                                cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
+                            }
+                            translate([-spread_cylinder_x, -spread_cylinder_y, 0]){                    
+                                cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
+                            }
+                            translate([spread_cylinder_x, -spread_cylinder_y, 0]){
+                                cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
+                            }
+                        }
+                    }
+                } 
+            }
     }
     union(){
         inset = 1.5;
+        spread_cylinder_y = (63/2)-3.9;
+        spread_cylinder_x = (21/2)-3.9;
         //bottom piece perfect but going to leave it  
             if (false){       
+            
             translate([0,0,-0]){
                 radius_cylinder_bottom = .75;
                 radius_cylinder_top = 1.5;
                 height_cylinder = .75;
-                spread_cylinder = 17.1;
+                
                 hull(){
-                    translate([spread_cylinder, spread_cylinder, 0]){
+                    translate([spread_cylinder_x, spread_cylinder_y, 0]){
                         cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
                     }
-                    translate([-spread_cylinder, spread_cylinder, 0]){
+                    translate([-spread_cylinder_x, spread_cylinder_y, 0]){
                         cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
                     }
-                    translate([-spread_cylinder, -spread_cylinder, 0]){
+                    translate([-spread_cylinder_x, -spread_cylinder_y, 0]){
                         cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
                     }
-                    translate([spread_cylinder, -spread_cylinder, 0]){
+                    translate([spread_cylinder_x, -spread_cylinder_y, 0]){
                         cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
                     }
                 }
@@ -150,19 +249,19 @@ difference() {
             radius_cylinder_bottom = 1.5 - inset/2;
             radius_cylinder_top = 1.5 - inset/2;
             height_cylinder = 2;
-            spread_cylinder = 17.1 - inset/2;
+
             translate([0,0,0]){
                 hull(){
-                    translate([spread_cylinder, spread_cylinder, 0]){
+                    translate([spread_cylinder_x, spread_cylinder_y, 0]){
                         cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
                     }
-                    translate([-spread_cylinder, spread_cylinder, 0]){
+                    translate([-spread_cylinder_x, spread_cylinder_y, 0]){
                         cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
                     }
-                    translate([-spread_cylinder, -spread_cylinder, 0]){
+                    translate([-spread_cylinder_x, -spread_cylinder_y, 0]){
                         cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
                     }
-                    translate([spread_cylinder, -spread_cylinder, 0]){
+                    translate([spread_cylinder_x, -spread_cylinder_y, 0]){
                         cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
                     }
                 }
@@ -173,19 +272,18 @@ difference() {
             radius_cylinder_bottom = 1.5 - inset/2;
             radius_cylinder_top = 3 - inset/2;
             height_cylinder = 3;
-            spread_cylinder = 17.1 - inset/2;
             translate([0,0,0]){
                 hull(){
-                    translate([spread_cylinder, spread_cylinder, 0]){
+                    translate([spread_cylinder_x, spread_cylinder_y, 0]){
                         cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
                     }
-                    translate([-spread_cylinder, spread_cylinder, 0]){
+                    translate([-spread_cylinder_x, spread_cylinder_y, 0]){
                         cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
                     }
-                    translate([-spread_cylinder, -spread_cylinder, 0]){
+                    translate([-spread_cylinder_x, -spread_cylinder_y, 0]){
                         cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
                     }
-                    translate([spread_cylinder, -spread_cylinder, 0]){
+                    translate([spread_cylinder_x, -spread_cylinder_y, 0]){
                         cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
                     }
                 }
@@ -196,19 +294,18 @@ difference() {
             radius_cylinder_bottom = 3 - inset/2;
             radius_cylinder_top = 3 - inset/2;
             height_cylinder = 3;
-            spread_cylinder = 17.1 - inset/2;
             translate([0,0,0]){
                 hull(){
-                    translate([spread_cylinder, spread_cylinder, 0]){
+                    translate([spread_cylinder_x, spread_cylinder_y, 0]){
                         cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
                     }
-                    translate([-spread_cylinder, spread_cylinder, 0]){
+                    translate([-spread_cylinder_x, spread_cylinder_y, 0]){
                         cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
                     }
-                    translate([-spread_cylinder, -spread_cylinder, 0]){
+                    translate([-spread_cylinder_x, -spread_cylinder_y, 0]){                    
                         cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
                     }
-                    translate([spread_cylinder, -spread_cylinder, 0]){
+                    translate([spread_cylinder_x, -spread_cylinder_y, 0]){
                         cylinder(h=height_cylinder, r1=radius_cylinder_bottom, r2=radius_cylinder_top);
                     }
                 }
@@ -216,6 +313,3 @@ difference() {
         } 
     }
 }
-//internal cutout
-
-

@@ -355,6 +355,9 @@ module surround(){
 $fn = 50;
 
 
+
+
+
 difference() {
 	union() {
 		hull() {
@@ -393,25 +396,44 @@ difference() {
 		}
 	}
 	union() {
+        lift = 5;
         rad = 3;
-        wid = 42 * 3 + 10; 
+        wid = 42 * 3; 
+        wid_big = wid + 10;
         hei = 42 * 3.5;
-        dep = 17.5;
+        dep = 17.5-lift;
         shift_x = wid/2 - rad;
+        shift_x_big = wid_big/2 - rad;
         shift_y = hei/2 - rad;
-        
+        //top piece cutout
 		hull() {
-			translate(v = [shift_x, shift_y, 0]) {
+			translate(v = [shift_x_big, shift_y, lift]) {
                 cylinder(h = dep, r = rad);
+            }
+            translate(v = [-shift_x_big, shift_y, lift]) {
+                cylinder(h = dep, r = rad);
+            }
+            translate(v = [-shift_x_big, -shift_y, lift]) {
+                cylinder(h = dep, r = rad);
+            }
+            translate(v = [shift_x_big, -shift_y, lift]) {
+                cylinder(h = dep, r = rad);
+            }
+		}
+        //bottom piece cutout
+        
+		#hull() {
+			translate(v = [shift_x, shift_y, 0]) {
+                cylinder(h = lift, r = rad);
             }
             translate(v = [-shift_x, shift_y, 0]) {
-                cylinder(h = dep, r = rad);
+                cylinder(h = lift, r = rad);
             }
             translate(v = [-shift_x, -shift_y, 0]) {
-                cylinder(h = dep, r = rad);
+                cylinder(h = lift, r = rad);
             }
             translate(v = [shift_x, -shift_y, 0]) {
-                cylinder(h = dep, r = rad);
+                cylinder(h = lift, r = rad);
             }
 		}
 	}
